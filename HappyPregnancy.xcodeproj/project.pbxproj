@@ -128,10 +128,13 @@
 		40CA2EE1156E579500B000E1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA2EDE156E579500B000E1 /* QuartzCore.framework */; };
 		40CA2EE2156E579500B000E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CA2EDF156E579500B000E1 /* SystemConfiguration.framework */; };
 		40CA2EE9156E770700B000E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40CA2EE8156E770700B000E1 /* Default.png */; };
+		DE6E7CFB157A5C4300E33159 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6E7CFA157A5C4300E33159 /* icon.png */; };
+		DE6E7D03157A608F00E33159 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6E7D02157A608F00E33159 /* Icon@2x.png */; };
+		DE6E7D05157A60F500E33159 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6E7D04157A60F500E33159 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		409127E6156CEAAD00CA1477 /* HappyPregnancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyPregnancy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409127E6156CEAAD00CA1477 /* 快乐准妈咪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快乐准妈咪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409127EA156CEAAD00CA1477 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		409127EC156CEAAD00CA1477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		409127EE156CEAAD00CA1477 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -293,6 +296,10 @@
 		40CA2EDE156E579500B000E1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		40CA2EDF156E579500B000E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		40CA2EE8156E770700B000E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE6E7CFA157A5C4300E33159 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DE6E7D02157A608F00E33159 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DE6E7D04157A60F500E33159 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE6E7D06157A617200E33159 /* HappyPregnancy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HappyPregnancy.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +322,9 @@
 		409127DB156CEAAC00CA1477 = {
 			isa = PBXGroup;
 			children = (
+				DE6E7D04157A60F500E33159 /* Default@2x.png */,
+				DE6E7D02157A608F00E33159 /* Icon@2x.png */,
+				DE6E7CFA157A5C4300E33159 /* icon.png */,
 				40CA2EE8156E770700B000E1 /* Default.png */,
 				409127E9156CEAAD00CA1477 /* Frameworks */,
 				40CA2DC1156E422B00B000E1 /* HappyPregnancy */,
@@ -325,7 +335,7 @@
 		409127E7156CEAAD00CA1477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				409127E6156CEAAD00CA1477 /* HappyPregnancy.app */,
+				409127E6156CEAAD00CA1477 /* 快乐准妈咪.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,6 +356,7 @@
 		40CA2DC1156E422B00B000E1 /* HappyPregnancy */ = {
 			isa = PBXGroup;
 			children = (
+				DE6E7D06157A617200E33159 /* HappyPregnancy.entitlements */,
 				40CA2DCE156E467B00B000E1 /* MainWindow.xib */,
 				40CA2DCF156E467B00B000E1 /* MumCAppDelegate.h */,
 				40CA2DD0156E467B00B000E1 /* MumCAppDelegate.m */,
@@ -603,9 +614,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		409127E5156CEAAD00CA1477 /* HappyPregnancy */ = {
+		409127E5156CEAAD00CA1477 /* HappyPregancy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40912804156CEAAD00CA1477 /* Build configuration list for PBXNativeTarget "HappyPregnancy" */;
+			buildConfigurationList = 40912804156CEAAD00CA1477 /* Build configuration list for PBXNativeTarget "HappyPregancy" */;
 			buildPhases = (
 				409127E2156CEAAD00CA1477 /* Sources */,
 				409127E3156CEAAD00CA1477 /* Frameworks */,
@@ -615,9 +626,9 @@
 			);
 			dependencies = (
 			);
-			name = HappyPregnancy;
+			name = HappyPregancy;
 			productName = MumC;
-			productReference = 409127E6156CEAAD00CA1477 /* HappyPregnancy.app */;
+			productReference = 409127E6156CEAAD00CA1477 /* 快乐准妈咪.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -640,7 +651,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				409127E5156CEAAD00CA1477 /* HappyPregnancy */,
+				409127E5156CEAAD00CA1477 /* HappyPregancy */,
 			);
 		};
 /* End PBXProject section */
@@ -728,6 +739,9 @@
 				40CA2EDA156E52D200B000E1 /* InfoPlist.strings in Resources */,
 				40CA2EDC156E52D200B000E1 /* HappyPregnancy-Info.plist in Resources */,
 				40CA2EE9156E770700B000E1 /* Default.png in Resources */,
+				DE6E7CFB157A5C4300E33159 /* icon.png in Resources */,
+				DE6E7D03157A608F00E33159 /* Icon@2x.png in Resources */,
+				DE6E7D05157A60F500E33159 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,7 +867,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MumC/HappyPregnancy-Prefix.pch";
 				INFOPLIST_FILE = "MumC/HappyPregnancy-Info.plist";
-				PRODUCT_NAME = HappyPregnancy;
+				PRODUCT_NAME = "快乐准妈咪";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -868,7 +882,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MumC/HappyPregnancy-Prefix.pch";
 				INFOPLIST_FILE = "MumC/HappyPregnancy-Info.plist";
-				PRODUCT_NAME = HappyPregnancy;
+				PRODUCT_NAME = "快乐准妈咪";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -885,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40912804156CEAAD00CA1477 /* Build configuration list for PBXNativeTarget "HappyPregnancy" */ = {
+		40912804156CEAAD00CA1477 /* Build configuration list for PBXNativeTarget "HappyPregancy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40912805156CEAAD00CA1477 /* Debug */,
